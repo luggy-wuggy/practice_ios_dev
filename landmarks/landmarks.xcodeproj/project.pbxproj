@@ -31,6 +31,7 @@
 		70A27756252EAAE8006B367C /* stmarylake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70A27749252EAAE8006B367C /* stmarylake.jpg */; };
 		70A27757252EAAE8006B367C /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70A2774A252EAAE8006B367C /* chilkoottrail.jpg */; };
 		70A27758252EAAE8006B367C /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70A2774B252EAAE8006B367C /* rainbowlake.jpg */; };
+		70A2775A252EB0C2006B367C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A27759252EB0C2006B367C /* UserData.swift */; };
 		70FACE3E252D8279008E2F0C /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FACE3D252D8279008E2F0C /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		70A27749252EAAE8006B367C /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
 		70A2774A252EAAE8006B367C /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		70A2774B252EAAE8006B367C /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
+		70A27759252EB0C2006B367C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		70FACE3D252D8279008E2F0C /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 				7085FC4F252D71C300925E56 /* LandmarkDetail.swift */,
 				7085FC67252D77F100925E56 /* LandmarkRow.swift */,
 				70FACE3D252D8279008E2F0C /* LandmarkList.swift */,
+				70A27759252EB0C2006B367C /* UserData.swift */,
 				7085FC51252D71C500925E56 /* Assets.xcassets */,
 				7085FC5F252D737E00925E56 /* CircleImage.swift */,
 				7085FC61252D742A00925E56 /* MapView.swift */,
@@ -241,6 +244,7 @@
 				70A2773D252EAAD2006B367C /* Landmark.swift in Sources */,
 				7085FC4E252D71C300925E56 /* SceneDelegate.swift in Sources */,
 				7085FC50252D71C300925E56 /* LandmarkDetail.swift in Sources */,
+				70A2775A252EB0C2006B367C /* UserData.swift in Sources */,
 				70A2773C252EAAD2006B367C /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
