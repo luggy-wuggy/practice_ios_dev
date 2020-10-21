@@ -16,7 +16,7 @@ struct HeaderView: View{
                 Spacer()
                 Image("luggy")
                     .resizable()
-                    .frame(width: 50, height: 50)
+                    .frame(width: 55, height: 55)
                     .clipShape(Circle())
                     .overlay(Circle().stroke(Color.white,lineWidth: 4))
             }

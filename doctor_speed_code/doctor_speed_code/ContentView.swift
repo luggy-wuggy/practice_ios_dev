@@ -28,7 +28,27 @@ struct ContentView: View {
                     .foregroundColor(Color.blue)
             }.padding(.horizontal)
             
+            ScrollView(.horizontal) {
+                HStack(spacing: 25) {
+                    ForEach(categoryData) { category in
+                        CategoryCell(category: category)
+                    }
+                }.padding(.horizontal)
+            }
             
+            HStack{
+                Text("Your schedules")
+                    .font(.title)
+                    .fontWeight(.semibold)
+                Spacer()
+                Text("See All")
+                    .font(.subheadline)
+                    .foregroundColor(Color.blue)
+            }.padding([.horizontal, .vertical])
+            
+            
+            
+
             Spacer()
         }
     }
